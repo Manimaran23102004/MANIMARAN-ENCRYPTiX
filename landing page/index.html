@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <nav>
+        <div class="heading">Landing Page</div>
+        <span class="sideMenuButton" 
+            onclick="openNavbar()">
+            &#9776
+        </span>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Side navigation bar for 
+        responsive website -->
+    <div class="sideNavigationBar" 
+        id="sideNavigationBar">
+        <a href="#" class="closeButton" 
+            onclick="closeNavbar()">
+            &#x274C
+        </a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Sign Up</a>
+    </div>
+
+    <!-- Content -->
+    <div class="line" id="Home">
+        <div class="side1">
+            <h1>NextGen Laptops</h1>
+            <button>
+                <a href=
+"https://www.hp.com/in">
+                    Explore More
+                </a>
+            </button>
+        </div>
+        <div class="side2">
+            <img src="81jpEBBBxgL._SL1500_.jpg"
+                width="500">
+        </div>
+    </div>
+
+    <section class="about" id="My Projects">
+        <div class="content">
+            <div class="title">
+                <span>Models</span>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            HP
+                        </a>
+                    </div>
+                    <p>
+                        HP has been at the forefront of technology for decades, delivering laptops that combine performance, style, and reliability. Whether you’re a professional seeking powerful performance, a student needing a reliable companion, or a gamer looking for high-speed graphics, HP offers a diverse range of laptops to meet your needs.
+                    </p>
+                </div>
+                <div class="box">
+
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            Lenovo
+                        </a>
+                    </div>
+                    <p>
+                        Lenovo is renowned for its innovative approach to computing, delivering laptops that offer outstanding performance, durability, and versatility. Whether you’re a business professional, a student, or a tech enthusiast, Lenovo has a laptop designed to meet your needs and exceed your expectations.
+
+
+                    </p>
+                </div>
+
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            ASUS
+                        </a>
+                    </div>
+                    <p>
+                        ASUS stands at the forefront of innovation, delivering laptops that blend advanced performance, sleek design, and exceptional reliability. Whether you're a creative professional, a student, or a gamer, ASUS offers a diverse range of laptops tailored to meet your specific needs and elevate your computing experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title"><span>Sign Up</span></div>
+            <div class="contactMenu">
+                <div class="input1">
+                    <div class="label1">Your Name</div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Name here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Email</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Email here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Password</label>
+                    </div>
+                    <div class="input2">
+                        <input type="password" 
+                            placeholder="Enter your Password here">
+                    </div>
+                    <div class="button">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+                <div class="input3">
+                    <div class="rightside1">
+                        <div class="title1">
+                            <span>
+                                Contact Us
+                            </span>
+                        </div>
+                        <div class="content1">
+                            
+                            A-22,Tech Innovators Inc.
+                            14,Future Drive, Suite 567
+                            Chennai City, 600 018 
+                            INDIA
+                            <br>
+                            <a id="mail" href="">nextgenlaptop@gmail.com</a>
+                       <br><br>
+                       <div id="time">
+                       <h3> Store Hours:</h3> 
+Monday - Friday: 10:00 AM - 7:00 PM <br>
+Saturday: 10:00 AM - 6:00 PM <br>
+Sunday: Closed
+                       </div>
+                        </div>
+                        <div class="title1">
+                            <br><span>More Information</span>
+                        </div>
+                        <div class="content1">
+                            Discover the perfect laptop for your needs at [Laptop Shop Name]. Our dedicated team is here to provide exceptional service and help you find a laptop that will enhance your productivity and entertainment experience.
+
+                           <br> [NEXTGEN LAPTOPS] | [+91 12345 66789]
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer section -->
+    <footer>
+        <div class="footer">
+            <span>
+                Created By
+                <a href="https://www.hp.com/in" 
+                    target="_blank">
+                    NEXTGEN
+                </a>
+            </span>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
