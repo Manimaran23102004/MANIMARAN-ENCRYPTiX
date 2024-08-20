@@ -1,0 +1,152 @@
+ /* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Section */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+#mail{
+    text-decoration: none;
+}
+
+#mail:hover,#linkin:hover,#phone:hover{
+    color: rgb(0, 0, 255);
+}
+#linkin{
+    text-decoration: none;
+    color: #e2e2e2;
+}
+
+#phone{
+    cursor: pointer;
+}
+
+header p {
+    margin: 10px 0 0;
+}
+
+/* About Section */
+#about {
+    padding: 20px;
+    text-align: center;
+}
+#me:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+   
+}
+
+#about img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: -20px;
+}
+
+#about h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Skills Section */
+#skills {
+    padding: 20px;
+    background-color: #e2e2e2;
+}
+.one:hover{
+    
+    scale: .9;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    text-align: start;
+}
+
+#skills ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 1.2em;
+}
+.project{
+     padding: 10px;         
+    background-color: #e2e2e2;
+    transition: box-shadow 0.3s ease;
+}
+.project:hover{
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Projects Section */
+#projects {
+    padding: 20px;
+}
+#projects h2{
+    font: bold;
+    
+}
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+.project h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+/* Resume Section */
+#resume {
+    padding: 20px;
+    text-align: center;
+}
+
+#resume a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+#down:hover{
+    cursor: pointer;
+    opacity: 0.3;
+}
+
+/* Contact Section */
+#contact {
+    padding: 20px;
+    background-color: #e2e2e2;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 1.2em;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
